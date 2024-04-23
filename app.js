@@ -11,7 +11,7 @@ mongoose
   .connect(dbURI)
   .then((result) => {
     console.log("Database-connected");
-    app.listen(8080);
+    app.listen(6977);
   })
   .catch((err) => console.log(err));
 app.set("view engine", "ejs");
